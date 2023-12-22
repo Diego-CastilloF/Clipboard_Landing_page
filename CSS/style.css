@@ -210,7 +210,7 @@ body{
 
     .devices__paragraph{
         width: 90%;
-        font-size: 22px;
+        font-size: 20px;
         margin: 0 auto;
     }
 
@@ -221,5 +221,55 @@ body{
 
     .btn{
         padding: .8rem 2.5rem;
+    }
+
+    .snippets__container{
+        width: 100%;
+    }
+
+    .snippets__texts{
+        width: 60%;
+        margin: 0 auto 83px;
+        gap: 15px;
+    }
+
+    .snippets__text--container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .snippets__title{
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .snippets__paragraph{
+        font-size: 20px;
+    }
+
+    .snippets__main{
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .snippets__picture{
+        width: 720px;
+        height: 575px;
+    }
+
+    .snippets__text--container{
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .snippets__title--main{
+        font-size: 24px;
+    }
+
+    .snippets__paragraph--main{
+        font-size: 16px;
     }
 }
