@@ -188,3 +188,38 @@ body{
     padding: 2.5rem 0 3rem;
 }
 
+@media (min-width: 768px) {
+    .header__section{
+        background-image: url('../images/bg-header-desktop.png');
+        background-size: 100% 110%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        max-width: 1440px;
+    }
+
+    .devices__container{
+        width: 60%;
+    }
+
+    .devices__title{
+        font-size: 48px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .devices__paragraph{
+        width: 90%;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .devices__btns{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn{
+        padding: .8rem 2.5rem;
+    }
+}
