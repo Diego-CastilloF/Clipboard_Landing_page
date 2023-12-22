@@ -177,6 +177,14 @@ body{
     text-align: center;
 }
 
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    text-align: center;
+}
+
 .footer__item{
     text-decoration: none;
     color: var(--color-titles-font);
@@ -358,6 +366,8 @@ body{
         flex-basis: 40%;
         column-gap: 6rem;
     }
+
+  
 
     .footer__div{
         display: flex;
