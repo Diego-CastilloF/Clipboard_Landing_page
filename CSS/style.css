@@ -196,7 +196,7 @@ body{
     padding: 2.5rem 0 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
     .header__section{
         background-image: url('../images/bg-header-desktop.png');
         background-size: 100% 110%;
@@ -270,11 +270,9 @@ body{
         align-items: center;
     }
 
-    /* .snippets__picture{
-       
-    }
- */
+ 
     .snippets__img{
+        position: relative;
         width: 720px;
         height: 575px;
         margin: 50px auto 0;
@@ -339,6 +337,7 @@ body{
         width: 95%;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 104px;
     }
 
@@ -378,7 +377,7 @@ body{
     }
 
     .footer__item{
-        font-size: 22px;
+        font-size: 20px;
         color: #4f5459;
         font-weight: 700;
        
@@ -389,5 +388,10 @@ body{
         justify-content: flex-end;
         align-items: center;
         /* margin: 0 auto; */
+    }
+
+    .main__container{
+        max-width: 1400px;
+        margin: 0 auto;
     }
 }
